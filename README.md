@@ -12,7 +12,8 @@ backend for stuffiedo
                 "aud": <audience-key>,
                 "secret": <secret key for jwt validation>,
                 "algorithm": <algorithm used for jwt validation>},
-   "durability": {},
+   "durability": {"uri":<some db uri to connect to>"
+                  "address":<query-address>},
    "webserver": {"web_root": <web_root>,
                  "index_page": <index_page>,
                  "host": <host>,
